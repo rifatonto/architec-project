@@ -3,4 +3,60 @@
  * {   
     font-family: 'Work Sans', sans-serif;
  }
- 
+ header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+ }
+ nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .nav-tittle {
+    color: #131313;
+    font-weight: 900;
+    font-size: 45px;
+ }
+ nav > ul {
+    display: flex;
+    gap: 30px;
+    
+ }
+ nav  li {
+    list-style: none;
+   
+ }
+ .banner-content {
+   max-width: 800px;
+   text-align: center;
+   margin:0 auto;
+   padding-left: 35px;
+ }
+ .btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    width: 140px;
+    height: 64px;
+    color: #FFF;
+    
+   
+ }
+ .banner-img {
+    width: 100%;
+    /* height: 500px; */
+    margin-top: 20px;
+    
+ }
+
+
+ /* responsive style */
+
+@media screen and (max-width:576px) {
+    header {
+        padding: 20px;
+    }
+    nav {
+        flex-direction: column; 
+    }
+    
+} 
