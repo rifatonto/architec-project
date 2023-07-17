@@ -99,8 +99,32 @@
     height: 242px;
 }
 
-
-
+.feature-contain {
+    display: flex;
+}
+.some-facts {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 40px 30px;
+    
+}
+.some-facts  .card {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    /* padding: 40px 30px; */
+}
+.card-stats {
+    font-size: 45px;
+    
+    font-weight: 600;
+    margin-top: 10px;
+     margin-bottom: 10px; 
+}
+.card-title {
+      margin-top: 5px;
+    
+}
 
  /* responsive style */
 
